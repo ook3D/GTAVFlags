@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"flags":
 	{
-		"headerFlag":
+		"headerFlags":
 		[
 			{
 				"bit": 0,
@@ -163,6 +163,495 @@
 			{
 				"bit": 31,
 				"name": "unused",
+				"description": ""
+			}
+		],
+		"ambientRuleFlags":
+		[
+			{
+				"bit": 0,
+				"name": "IgnoreInitialMinRepeatTime",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "StopWhenRaining",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "StopOnLoudSound",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "FollowListener",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "UseOcclusion",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "StreamingSound",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "StopOnZoneDeactivation",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "TriggeredOnLoudSound",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "CanTriggerOverWater",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "CheckConditionsEachFrame",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "UsePlayerPosition",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "DisableInMultiplayer",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "Max",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "",
+				"description": ""
+			}
+		],
+		"staticEmitterFlags":
+		[
+			{
+				"bit": 0,
+				"name": "Enabled",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "GeneratesBeats",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "LinkedToProp",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "ConedFront",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "FillsInteriorSpace",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "PlayFullRadio",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "MuteForScore",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "DisabledByScript",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "StartStopImmediatelyAtTimeLimits",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "MuteForFrontendRadio",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "ForceMaxPathDepth",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "IgnoreSniper",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "Max",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "",
+				"description": ""
+			}
+		],
+		"ambientZoneFlags":
+		[
+			{
+				"bit": 0,
+				"name": "InteriorZone",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "ZoneEnabledStatePersistent",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "ZoneEnabledStateNonPersistent",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "UsePlayerPosition",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "DisableInMultiplayer",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "ScaleMaxWorldHeightWithZoneInfluence",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "HasTunnelReflections",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "HasReverbLinkedReflections",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "HasRandomStaticRadioEmitters",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "HasRandomVehicleRadioEmitters",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "OccludeRain",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "Max",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "",
 				"description": ""
 			}
 		]
