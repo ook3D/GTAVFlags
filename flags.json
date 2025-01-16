@@ -157,12 +157,12 @@
 			},
 			{
 				"bit": 30,
-				"name": "unused",
+				"name": "",
 				"description": ""
 			},
 			{
 				"bit": 31,
-				"name": "unused",
+				"name": "",
 				"description": ""
 			}
 		],
